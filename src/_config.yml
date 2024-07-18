@@ -1,0 +1,78 @@
+# Site settings
+title: Your Site Title
+description: A description of your site
+url: "https://nehap910.github.io"  # Your site's URL
+baseurl: ""  
+
+# Author settings
+author:
+  name: Your Name
+  email: your-email@example.com
+
+# Theme settings
+theme: jekyll-theme-primer
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
+  - jekyll-commonmark-ghpages
+
+# Markdown settings
+markdown: CommonMarkGhPages
+highlighter: rouge
+
+# Build settings
+incremental: false  # Enable for faster builds during development
+
+# Exclusions
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle
+  - vendor/cache
+  - vendor/gems
+  - vendor/ruby
+
+# Pagination settings
+paginate: 10
+paginate_path: "/page:num/"
+
+# SEO settings
+seo:
+  title: Your Site Title
+  description: A description of your site
+  url: "https://yourusername.github.io"
+
+# GitHub Metadata settings
+github:
+  is_project_page: true
+
+# Optional Front Matter settings
+optional_front_matter:
+  enabled: true
+
+# Readme Index settings
+readme_index:
+  enabled: true
+
+# Relative Links settings
+relative_links:
+  enabled: true
+
+# Default Layout settings
+default_layout:
+  enabled: true
+
+# Titles from Headings settings
+titles_from_headings:
+  enabled: true

@@ -1,13 +1,13 @@
 # Site settings
-title: Your Site Title
+title: Blog Post
 description: A description of your site
 url: "https://nehap910.github.io"  # Your site's URL
-baseurl: ""  
+baseurl: "/blogpost"  # Ensure this matches the repository name
 
 # Author settings
 author:
-  name: Your Name
-  email: your-email@example.com
+  name: Neha
+  email: pokharkarneha2017@gmail.com
 
 # Theme settings
 theme: jekyll-theme-primer
@@ -49,9 +49,9 @@ paginate_path: "/page:num/"
 
 # SEO settings
 seo:
-  title: Your Site Title
+  title: Blog Post
   description: A description of your site
-  url: "https://yourusername.github.io"
+  url: "https://nehap910.github.io"
 
 # GitHub Metadata settings
 github:
